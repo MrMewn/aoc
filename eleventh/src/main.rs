@@ -87,19 +87,19 @@ mod tests {
     use crate::solution;
 
     #[test]
-    fn test_1_input() {
+    fn test_input() {
         let sum = solution("./test_input.txt", 1);
         assert_eq!(sum, 374);
     }
 
     #[test]
-    fn test_1_input_tenfold() {
+    fn test_input_tenfold() {
         let sum = solution("./test_input.txt", 9);
         assert_eq!(sum, 1030);
     }
 
     #[test]
-    fn test_1_input_hundredfold() {
+    fn test_input_hundredfold() {
         let sum = solution("./test_input.txt", 99);
         assert_eq!(sum, 8410);
     }
